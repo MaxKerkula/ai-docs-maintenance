@@ -1,0 +1,42 @@
+name: Request a documentation review
+description: Request a scoped review of public Python project documentation.
+title: "[Review request] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is a request for scope and availability, not an order or payment.
+        This issue is public. Do not include credentials, payment information,
+        email addresses, private project data, or employer/customer files.
+  - type: input
+    id: repository
+    attributes:
+      label: Public repository
+      description: Link to the public project you maintain or are authorized to commission work for.
+      placeholder: https://github.com/owner/project
+    validations:
+      required: true
+  - type: textarea
+    id: pages
+    attributes:
+      label: Documentation pages
+      description: Link up to three public pages and describe the instructions you need checked.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Target environment
+      description: State the operating system and Python version. Do not include private paths or hostnames.
+    validations:
+      required: true
+  - type: dropdown
+    id: service
+    attributes:
+      label: Requested service
+      options:
+        - USD 25 pilot, up to one hour
+        - USD 79 monthly service, after an accepted pilot
+        - Scope question before ordering
+    validations:
+      required: true
