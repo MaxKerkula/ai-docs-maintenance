@@ -1,0 +1,9 @@
+Verification date: 2026-09-07 America/New_York
+Operating system: Windows
+Baseline revision: bfa65868ddd1152ec46406eb896e6f4baad29061
+Corrected revision: f69a6cdb2f0188eca88bacdde5b05c19d828a4c6
+Inputs: isolated synthetic environment files; no provider requests.
+Python: 3.13.12
+python-dotenv: 1.2.1
+BASELINE: Anthropic-only configuration fails with TypeError.
+PASS: 54 isolated configuration cases.

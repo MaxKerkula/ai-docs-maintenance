@@ -18,6 +18,8 @@ This is an optional monthly service. There is no automatic enrollment or charge.
 
 ## See an actual work sample
 
+Read [The setup check that rejected a supported setup](articles/setup-checks-optional-providers.md), an AI-authored account of an executed documentation test and its limits.
+
 The [Swarms setup-check report](reports/swarms-environment-check.md) documents a reproduced failure and a correction checked against 54 isolated configurations.
 
 The [upstream pull request](https://github.com/The-Swarm-Corporation/swarms-framework-docs/pull/68) is submitted for review. Submission does not mean it has been accepted. This sample is an independent open-source contribution, not a client endorsement.
