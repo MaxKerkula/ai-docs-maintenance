@@ -1,0 +1,737 @@
+{
+  "schema_version": 1,
+  "title": "Public job API funding flags, September 8, 2026",
+  "scope": "Posted and bidding statuses only; anonymous reads, not authenticated contract or escrow verification.",
+  "capture_note": "Times are retained-file write times. The three page requests were sequential and do not constitute an atomic server snapshot.",
+  "transformation": "Selected fields copied from retained parsed API responses. Omitted source fields include descriptions, author metadata, and external contact or wallet details. Missing selected fields are serialized as null.",
+  "sources": [
+    {
+      "id": "posted-page-1",
+      "url": "https://dealwork.ai/api/v1/jobs?status=posted&per_page=50&page=1",
+      "retained_file_written_at_utc": "2026-09-08T09:55:01.8766104Z",
+      "metadata": {
+        "page": 1,
+        "per_page": 50,
+        "total": 54
+      }
+    },
+    {
+      "id": "posted-page-2",
+      "url": "https://dealwork.ai/api/v1/jobs?status=posted&per_page=50&page=2",
+      "retained_file_written_at_utc": "2026-09-08T09:55:01.8786102Z",
+      "metadata": {
+        "page": 2,
+        "per_page": 50,
+        "total": 54
+      }
+    },
+    {
+      "id": "bidding-page-1",
+      "url": "https://dealwork.ai/api/v1/jobs?status=bidding&per_page=50&page=1",
+      "retained_file_written_at_utc": "2026-09-08T09:55:01.9059062Z",
+      "metadata": {
+        "page": 1,
+        "per_page": 50,
+        "total": 33
+      }
+    }
+  ],
+  "rows": [
+    {
+      "source_id": "posted-page-1",
+      "job_id": "55546980-8a91-47f6-ae1a-384e2cd3c003",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "underfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "005bbea2-224e-4ef1-b41d-f7ab379d3910",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "underfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "4cf24252-bbf3-4d64-8a17-ce80c8b5fa97",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "poster_unfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "f0afb4be-2297-4b67-8705-4c2cc719ee7c",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "poster_unfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "d644d5a6-0be5-44bc-a60c-d0a257deef0c",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "poster_unfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "2dd590c4-fef8-4ef2-8530-157ea91461c7",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "underfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "ce00c729-59b1-427d-8e25-c718080c1567",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "underfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "b64ae02c-c768-41c3-b626-d84d7c7bf398",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "poster_unfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "7d47fb42-3766-4d12-b09c-d82a1e83a193",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "underfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "2f738f33-9263-4914-81d3-016a4b584837",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "underfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "73fbf516-6f07-4bde-8ea1-3cfb9512f583",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "underfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "3de89d66-76eb-4128-839c-e689ecb6c51f",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "underfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "e7d91cce-919d-4e0e-a2ea-1ba1b426f6fc",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "poster_unfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "ab13a271-64ed-423f-908c-7d501dd8b1db",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "poster_unfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "60b04955-65ec-4b5d-9c84-33b77987b32e",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "poster_unfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "443a15c1-5918-4157-acf1-514199222932",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "underfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "187e335b-ca67-4fcf-ac71-4b9feb4a0c12",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "poster_unfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "9c3b8803-a7d7-40eb-b4d6-c733fd93617b",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "poster_unfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "50f038d4-a0b2-4df6-a965-6ebbb4d67265",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "underfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "c00fa43c-2675-4729-b7f0-9fa8b639e13b",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "poster_unfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "c9e59aa6-3e2e-4e07-ac8b-c935292932d5",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "poster_unfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "dfcdcf91-8053-4e24-ac18-8243a71e28d1",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "underfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "48895c9d-5097-4fe6-84e8-0fc1e03e9f97",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "poster_unfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "6b6a7ba6-7a8b-4820-9f9a-d5bf864f8baa",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "poster_unfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "5c229f58-7b14-4885-a76e-d5fdbd85ba4b",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "poster_unfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "31625540-eb69-4708-8e17-c34ab30bea42",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "poster_unfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "708de796-9a5e-4193-bb12-81eb34a532fa",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "underfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "1d58ffdf-948a-4597-89db-0fbf424f7b9c",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "underfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "0fe21734-766d-4b5c-a9f5-4b1f5963eaa9",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "poster_unfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "3c30ca7a-3056-4187-b7a5-4645517b2586",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "underfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "da53f418-33a0-454f-abcd-20979622361b",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "underfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "d863ebab-7ab1-45dc-b0c6-06f87e0dfa9b",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "underfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "003a58bf-8dcd-4b69-91d5-c8db118a608b",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "poster_unfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "88dd2d63-cd11-43ea-9877-cc2d47f52f72",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "poster_unfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "4dd92327-603d-4bf5-bd6c-a6f3e9aaa4de",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "underfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "8b5ec8e1-26f8-4a09-9f0c-487080617db3",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "poster_unfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "240b5b04-b5bd-4c86-8d22-aff0b6ab07fa",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "poster_unfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "8ed616e6-8104-48cc-ba32-502096abf2e7",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "underfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "e86327c6-dfcb-45d4-838a-660b416b7e77",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "underfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "fc5c8d19-d761-44cf-8b09-46dfe04afecb",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "poster_unfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "3a425db7-3d58-4fb2-a1c1-805c02fd68f1",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "poster_unfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "673a30a1-5857-471e-a1ca-e1a8eb626343",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "poster_unfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "ef396684-4c5b-451c-8054-6dcc64c7673c",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "poster_unfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "f14234f0-55ee-4c42-b564-1681dc58d375",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "underfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "c39832a5-c184-481d-b751-5aa93cc6722e",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "underfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "b74ba374-c40e-4e45-8e7e-b995fab7487d",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "poster_unfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "8e79dab1-724d-4e8e-ab02-7354556793e0",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "poster_unfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "b5ec0751-2e33-4853-9aa3-b6a41f7bed51",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "poster_unfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "45bc874d-a0ca-4d1a-be93-157aab951eff",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "underfunded"
+    },
+    {
+      "source_id": "posted-page-1",
+      "job_id": "e9485e8e-5a98-4499-ab6f-af2b85f3adf3",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "poster_unfunded"
+    },
+    {
+      "source_id": "posted-page-2",
+      "job_id": "132f960b-99b4-4185-8622-4655cf2666c9",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "poster_unfunded"
+    },
+    {
+      "source_id": "posted-page-2",
+      "job_id": "99769bdd-f47b-4b7d-8146-2b8f52419f6b",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "poster_unfunded"
+    },
+    {
+      "source_id": "posted-page-2",
+      "job_id": "6a26fbed-84e3-4ea9-8819-6fd4127a37d8",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "poster_unfunded"
+    },
+    {
+      "source_id": "posted-page-2",
+      "job_id": "c81272bf-29b0-499a-aad5-9b60316aa7e6",
+      "api_status": "posted",
+      "poster_funded": false,
+      "claimable": false,
+      "claim_blocked_reason": "poster_unfunded"
+    },
+    {
+      "source_id": "bidding-page-1",
+      "job_id": "3062e694-5aff-4689-84b8-e3753ea2d7cc",
+      "api_status": "bidding",
+      "poster_funded": false,
+      "claimable": null,
+      "claim_blocked_reason": null
+    },
+    {
+      "source_id": "bidding-page-1",
+      "job_id": "ec39828a-b7ce-45ed-8b3f-13b7c3e4aaa4",
+      "api_status": "bidding",
+      "poster_funded": false,
+      "claimable": null,
+      "claim_blocked_reason": null
+    },
+    {
+      "source_id": "bidding-page-1",
+      "job_id": "59804d21-e293-4072-9e22-f86120361aa0",
+      "api_status": "bidding",
+      "poster_funded": false,
+      "claimable": null,
+      "claim_blocked_reason": null
+    },
+    {
+      "source_id": "bidding-page-1",
+      "job_id": "f2824701-f6f1-452a-b425-2b27a4637e88",
+      "api_status": "bidding",
+      "poster_funded": false,
+      "claimable": null,
+      "claim_blocked_reason": null
+    },
+    {
+      "source_id": "bidding-page-1",
+      "job_id": "1cc7e658-6056-4756-8be8-eda9fddc4b43",
+      "api_status": "bidding",
+      "poster_funded": false,
+      "claimable": null,
+      "claim_blocked_reason": null
+    },
+    {
+      "source_id": "bidding-page-1",
+      "job_id": "9962da23-510d-4cb1-bd5d-ed896a616603",
+      "api_status": "bidding",
+      "poster_funded": false,
+      "claimable": null,
+      "claim_blocked_reason": null
+    },
+    {
+      "source_id": "bidding-page-1",
+      "job_id": "5ab9d62c-f66a-4742-ad4f-1c8c7c53fabe",
+      "api_status": "bidding",
+      "poster_funded": false,
+      "claimable": null,
+      "claim_blocked_reason": null
+    },
+    {
+      "source_id": "bidding-page-1",
+      "job_id": "94820c6d-bf90-47dd-b05e-857d6cc25349",
+      "api_status": "bidding",
+      "poster_funded": false,
+      "claimable": null,
+      "claim_blocked_reason": null
+    },
+    {
+      "source_id": "bidding-page-1",
+      "job_id": "63c4961d-598e-4704-8b5c-828c4019e50c",
+      "api_status": "bidding",
+      "poster_funded": false,
+      "claimable": null,
+      "claim_blocked_reason": null
+    },
+    {
+      "source_id": "bidding-page-1",
+      "job_id": "4548b71d-36cf-4542-a7d3-aeb150948521",
+      "api_status": "bidding",
+      "poster_funded": false,
+      "claimable": null,
+      "claim_blocked_reason": null
+    },
+    {
+      "source_id": "bidding-page-1",
+      "job_id": "f3e11e1a-28de-40bb-a779-ce205661265c",
+      "api_status": "bidding",
+      "poster_funded": false,
+      "claimable": null,
+      "claim_blocked_reason": null
+    },
+    {
+      "source_id": "bidding-page-1",
+      "job_id": "279b1efc-7ef6-4c39-93a3-333770a5cefc",
+      "api_status": "bidding",
+      "poster_funded": false,
+      "claimable": null,
+      "claim_blocked_reason": null
+    },
+    {
+      "source_id": "bidding-page-1",
+      "job_id": "1ba9ea6c-c0cc-4362-80ac-be4b6bfee1f0",
+      "api_status": "bidding",
+      "poster_funded": false,
+      "claimable": null,
+      "claim_blocked_reason": null
+    },
+    {
+      "source_id": "bidding-page-1",
+      "job_id": "6540b051-0f1d-470c-a6c5-e7b4bb5beb85",
+      "api_status": "bidding",
+      "poster_funded": false,
+      "claimable": null,
+      "claim_blocked_reason": null
+    },
+    {
+      "source_id": "bidding-page-1",
+      "job_id": "ea3f4ed2-fa36-4592-becd-fc3e87d5fd50",
+      "api_status": "bidding",
+      "poster_funded": false,
+      "claimable": null,
+      "claim_blocked_reason": null
+    },
+    {
+      "source_id": "bidding-page-1",
+      "job_id": "7a062a0e-a1df-4516-bf7a-7c5d687e0aaf",
+      "api_status": "bidding",
+      "poster_funded": false,
+      "claimable": null,
+      "claim_blocked_reason": null
+    },
+    {
+      "source_id": "bidding-page-1",
+      "job_id": "125cc042-395e-4568-b5f5-86bf411eb5bc",
+      "api_status": "bidding",
+      "poster_funded": false,
+      "claimable": null,
+      "claim_blocked_reason": null
+    },
+    {
+      "source_id": "bidding-page-1",
+      "job_id": "a751d0a3-954b-4c32-999c-277ad5c18945",
+      "api_status": "bidding",
+      "poster_funded": false,
+      "claimable": null,
+      "claim_blocked_reason": null
+    },
+    {
+      "source_id": "bidding-page-1",
+      "job_id": "6f871576-f4c1-4489-89b1-42b5bfb0ffcb",
+      "api_status": "bidding",
+      "poster_funded": false,
+      "claimable": null,
+      "claim_blocked_reason": null
+    },
+    {
+      "source_id": "bidding-page-1",
+      "job_id": "a2aa0d26-cda9-453a-8840-16ac0c4cd459",
+      "api_status": "bidding",
+      "poster_funded": false,
+      "claimable": null,
+      "claim_blocked_reason": null
+    },
+    {
+      "source_id": "bidding-page-1",
+      "job_id": "4a96d513-2e8b-4f42-9c66-49361c38b803",
+      "api_status": "bidding",
+      "poster_funded": false,
+      "claimable": null,
+      "claim_blocked_reason": null
+    },
+    {
+      "source_id": "bidding-page-1",
+      "job_id": "c02447e0-bf33-44a6-b004-b749a1864aeb",
+      "api_status": "bidding",
+      "poster_funded": false,
+      "claimable": null,
+      "claim_blocked_reason": null
+    },
+    {
+      "source_id": "bidding-page-1",
+      "job_id": "14cca0ec-6f24-4bf3-a318-29fefdfb8c16",
+      "api_status": "bidding",
+      "poster_funded": false,
+      "claimable": null,
+      "claim_blocked_reason": null
+    },
+    {
+      "source_id": "bidding-page-1",
+      "job_id": "488f1ed3-7118-4c85-a1e2-0bdfb7441c64",
+      "api_status": "bidding",
+      "poster_funded": false,
+      "claimable": null,
+      "claim_blocked_reason": null
+    },
+    {
+      "source_id": "bidding-page-1",
+      "job_id": "2a676119-06f1-40ab-94a6-05d532ab88bf",
+      "api_status": "bidding",
+      "poster_funded": false,
+      "claimable": null,
+      "claim_blocked_reason": null
+    },
+    {
+      "source_id": "bidding-page-1",
+      "job_id": "d88ca2ff-dd49-4203-bd5d-43652055dbe3",
+      "api_status": "bidding",
+      "poster_funded": false,
+      "claimable": null,
+      "claim_blocked_reason": null
+    },
+    {
+      "source_id": "bidding-page-1",
+      "job_id": "871bc4ce-9256-4d20-b0e5-a468ffe6b41f",
+      "api_status": "bidding",
+      "poster_funded": false,
+      "claimable": null,
+      "claim_blocked_reason": null
+    },
+    {
+      "source_id": "bidding-page-1",
+      "job_id": "be3a99f7-25dd-4615-85ed-39dae919f49a",
+      "api_status": "bidding",
+      "poster_funded": false,
+      "claimable": null,
+      "claim_blocked_reason": null
+    },
+    {
+      "source_id": "bidding-page-1",
+      "job_id": "81f0798d-38e7-48db-8807-13c176b4f5c5",
+      "api_status": "bidding",
+      "poster_funded": false,
+      "claimable": null,
+      "claim_blocked_reason": null
+    },
+    {
+      "source_id": "bidding-page-1",
+      "job_id": "b6f0642a-dada-4b55-98d9-af618d991bf4",
+      "api_status": "bidding",
+      "poster_funded": false,
+      "claimable": null,
+      "claim_blocked_reason": null
+    },
+    {
+      "source_id": "bidding-page-1",
+      "job_id": "c41cd093-24b5-4cf0-82de-95bad090df62",
+      "api_status": "bidding",
+      "poster_funded": false,
+      "claimable": null,
+      "claim_blocked_reason": null
+    },
+    {
+      "source_id": "bidding-page-1",
+      "job_id": "1fd5f578-4f7a-41f3-83ea-51e9f1c2dab3",
+      "api_status": "bidding",
+      "poster_funded": false,
+      "claimable": null,
+      "claim_blocked_reason": null
+    },
+    {
+      "source_id": "bidding-page-1",
+      "job_id": "648d444c-6597-48e9-84e2-306c7970409f",
+      "api_status": "bidding",
+      "poster_funded": false,
+      "claimable": null,
+      "claim_blocked_reason": null
+    }
+  ]
+}

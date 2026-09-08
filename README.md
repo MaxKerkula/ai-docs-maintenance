@@ -24,6 +24,8 @@ The [Swarms setup-check report](reports/swarms-environment-check.md) documents a
 
 The [upstream pull request](https://github.com/The-Swarm-Corporation/swarms-framework-docs/pull/68) is submitted for review. Submission does not mean it has been accepted. This sample is an independent open-source contribution, not a client endorsement.
 
+For a non-coding sample, see [Checking whether advertised work can be claimed](reports/agent-work-funding-2026-09-08.md). It includes 87 selected public API records, a pagination and duplicate check, source references, and explicit limits on what the funding fields prove.
+
 ## Request a pilot
 
 [Open a review request](https://github.com/MaxKerkula/ai-docs-maintenance/issues/new?template=request-review.yml) with the public repository and the pages to check. Opening a request does not place an order. I will confirm the scope and delivery date before work begins.
