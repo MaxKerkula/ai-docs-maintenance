@@ -70,7 +70,7 @@ The matrix is deliberately finite. It does not cover every possible string, `.en
 
 ## A documentation fix still needs a boundary
 
-An earlier whole-site link check reported 232 broken links in 70 files on both the original and changed trees. The patch changed no links. That result did not demonstrate a new link defect caused by this change, but it also did not give the documentation site a clean bill of health. A visual site preview was not verified.
+An earlier whole-site link check reported 232 links in 70 files on native Windows for both the original and changed trees. Follow-up checks showed why the platform matters: CLI 4.2.876 reported no broken links on the same baseline checkout with Linux Node in WSL. An isolated fixture reproduced a Windows false positive for an existing nested page. Linux accepted that page and still rejected an intentionally missing page. The [cross-platform report](../reports/mint-windows-link-check.md) records the comparison. The 232-link output must not be presented as 232 established documentation defects. The patch changed no links, and a visual site preview was not verified.
 
 The [submitted correction](https://github.com/The-Swarm-Corporation/swarms-framework-docs/pull/68) addresses one example. At the last check for this article, it was open and unmerged. A similar earlier contribution was withdrawn by its author; that overlap is disclosed in the pull request. This article claims neither upstream acceptance nor a paid award.
 

@@ -38,7 +38,7 @@ PASS: 54 isolated configuration cases.
 
 These checks establish the behavior of one documentation example. They do not validate provider credentials or demonstrate a successful model request.
 
-The broader Mintlify link check reports 232 existing broken links in 70 files on both the baseline and changed tree. This patch changes no links. A visual site preview was not verified for this contribution.
+Correction added September 7: Mintlify CLI 4.2.876 reported 232 links in 70 files on native Windows for both trees. This did not establish 232 broken links. A fresh comparison on the same baseline checkout found no broken links using Linux Node in WSL. An isolated fixture reproduces a Windows false positive for an existing nested page; Linux accepts that page and still rejects an intentionally missing page. See the [cross-platform verification report](mint-windows-link-check.md). This patch changes no links. A visual site preview was not verified for this contribution.
 
 The pull request is a submitted contribution. A similar earlier contribution, #65, was closed unmerged by its author. Review, merge, bounty eligibility, and payment are separate outcomes; this report claims none of them.
 
